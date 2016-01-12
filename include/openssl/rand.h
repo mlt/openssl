@@ -113,7 +113,6 @@ int RAND_poll(void);
 
 # if defined(OPENSSL_SYS_WINDOWS) || defined(OPENSSL_SYS_WIN32)
 
-void RAND_screen(void);
 int RAND_event(UINT, WPARAM, LPARAM);
 
 # endif
