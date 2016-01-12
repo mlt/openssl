@@ -457,7 +457,7 @@ RAND_bytes                              464	EXIST::FUNCTION:
 RAND_cleanup                            465	EXIST::FUNCTION:
 RAND_file_name                          466	EXIST::FUNCTION:
 RAND_load_file                          467	EXIST::FUNCTION:
-RAND_screen                             468	EXIST:WIN32:FUNCTION:
+RAND_screen                             468	NOEXIST:WIN32:FUNCTION:
 RAND_seed                               469	EXIST::FUNCTION:
 RAND_write_file                         470	EXIST::FUNCTION:
 RC2_cbc_encrypt                         471	EXIST::FUNCTION:RC2
