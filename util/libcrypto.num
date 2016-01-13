@@ -1357,7 +1357,7 @@ BN_BLINDING_set_flags                   1314	1_1_0	EXIST::FUNCTION:
 ERR_peek_last_error                     1315	1_1_0	EXIST::FUNCTION:
 ENGINE_set_cmd_defns                    1316	1_1_0	EXIST::FUNCTION:ENGINE
 d2i_ASN1_NULL                           1317	1_1_0	EXIST::FUNCTION:
-RAND_event                              1318	1_1_0	EXIST:WIN32:FUNCTION:
+RAND_event                              1318	1_1_0	NOEXIST:WIN32:FUNCTION:
 i2d_PKCS12_fp                           1319	1_1_0	EXIST::FUNCTION:
 EVP_PKEY_meth_get_init                  1320	1_1_0	EXIST::FUNCTION:
 X509_check_trust                        1321	1_1_0	EXIST::FUNCTION:
