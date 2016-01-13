@@ -111,10 +111,6 @@ int RAND_egd(const char *path);
 int RAND_egd_bytes(const char *path, int bytes);
 int RAND_poll(void);
 
-# if defined(OPENSSL_SYS_WINDOWS) || defined(OPENSSL_SYS_WIN32)
-
-# endif
-
 # ifdef OPENSSL_FIPS
 void RAND_set_fips_drbg_type(int type, int flags);
 int RAND_init_fips(void);
